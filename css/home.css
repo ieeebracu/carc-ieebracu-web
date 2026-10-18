@@ -1,0 +1,411 @@
+/******COMMON******/
+
+.body {
+    background: white; /*rgb(226,226,226);*/
+}
+
+.header {
+    height: 200px;
+    width: 1000px;
+    background: white;
+    margin: auto;
+    display: block;
+    border: 0px solid white;
+}
+
+.allcontents {
+    width: 1000px;
+    margin: auto;
+    background: transparent;
+    display: block;
+}
+
+.tagcloudbox {
+    padding-top: 30px;
+    height: 370px;
+    width: 319px;
+    float: right;
+    background: rgb(236, 236, 236);
+    display: table-cell;
+}
+
+.footer {
+    width: 1000px;
+    background: white;
+    display: block;
+    margin: auto;
+}
+
+.footerbox {
+    width: 200px;
+    background: rgb(12, 14, 62);
+    float: left;
+    text-align: right;
+    border-top: 2px solid white;
+    color: rgb(197, 199, 255);
+    padding: 40px 0px 20px 40px;
+    font-size: 12px;
+    line-height: 140%;
+}
+
+.footerbox:hover {
+    color: whitesmoke;
+}
+
+.box {
+    width: 680px;
+    height: 400px;
+    display: table-cell;
+    float: left;
+    background: rgb(236, 236, 236);
+
+}
+
+/****** HOME *******/
+
+.leftbox {
+    width: 580px;
+    padding: 50px;
+    background: rgb(238, 238, 238);
+    opacity: 0.8;
+    display: table-cell;
+}
+
+.leftbox:hover {
+    background: whitesmoke;
+    opacity: 0.9;
+}
+
+.leftbox h1 {
+    font-size: 30px;
+    line-height: 140%;
+    color: rgb(104, 104, 104);
+}
+
+.leftbox p {
+    font-size: 17px;
+    line-height: 150%;
+    text-align: justify;
+    color: rgb(71, 71, 71);
+}
+
+.rightbox {
+    width: 220px;
+    display: table-cell;
+    background: rgb(236, 236, 236);
+    padding: 50px;
+    line-height: 140%;
+    border-bottom: 1px dashed white;
+    border-left: 1px dashed white;
+    color: rgb(71, 71, 71);
+}
+
+.rightbox:hover {
+    background: whitesmoke;
+}
+
+.message {
+    width: 900px;
+    padding: 50px 50px 50px 50px;
+    background: whitesmoke;
+    float: left;
+    border-bottom: 0px solid white;
+    border-right: 0px solid white;
+    line-height: 140%;
+    color: rgb(100, 100, 100);
+    display: table-cell;
+}
+
+.message h {
+    font-size: 30px;
+}
+
+#photobox {
+    background: whitesmoke;
+    height: 400px;
+    width: 680px;
+    float: left;
+    z-index: 1000;
+    opacity: 0.9;
+}
+
+#photobox:hover {
+    opacity: 1;
+}
+
+/****PROJECTS****/
+
+.actitle {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.para {
+    font-size: 12px;
+    text-align: justify;
+}
+
+.description, .listed {
+    display: block;
+}
+
+.description {
+    width: 1000px;
+    background: white;
+    float: left;
+}
+
+/***CONFERENCE PUBLICATION***/
+
+.confpubbox {
+    width: 900px;
+    padding: 20px 20px 20px 20px;
+    margin: auto;
+
+}
+
+.confpubbox:hover {
+    background: whitesmoke;
+}
+
+/**Journal Paper review**/
+
+.jpreview {
+    width: 918px;
+    padding: 40px;
+    margin: auto;
+    border: 1px solid whitesmoke;
+    line-height: 150%;
+
+}
+
+.jpreview:hover {
+
+    background: rgb(250, 250, 250);
+}
+
+/**EVENTS**/
+
+.evbox {
+    width: 900px;
+    padding: 40px 49px 40px 49px;
+    float: left;
+    display: table-cell;
+    background: whitesmoke;
+    border: 1px dotted white;
+    text-align: justify;
+    line-height: 140%;
+    font-size: 15px;
+}
+
+.evbox img, .para img {
+    margin: auto;
+    display: block;
+    float: left;
+    padding: 0px 20px 10px 0px;
+}
+
+.evbox p {
+    float: right;
+}
+
+.evbox h1 {
+    font-size: 18px;
+    line-height: 135%;
+}
+
+.evbox:hover {
+    background: rgb(250, 250, 250);
+}
+
+/**DIRECORY**/
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#name {
+    font-size: 20px;
+    font-style: strong;
+
+}
+
+#designation {
+    font-style: italic;
+
+}
+
+.dir1 {
+    background: whitesmoke;
+    display: block;
+    width: 957px;
+    padding: 30px 20px 30px 20px;
+    border: 1px solid white;
+    margin: auto;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+.dir2 {
+    background: whitesmoke;
+    display: table-cell;
+    width: 400px;
+    padding: 30px 50px 30px 50px;
+    border: 1px solid white;
+    margin: auto;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.dir3 {
+    background: whitesmoke;
+    display: table-cell;
+    width: 300px;
+    padding: 30px 50px 30px 50px;
+    border: 1px solid white;
+    margin-top: -100px;
+    margin: auto;
+    text-align: center;
+    opacity: 0.7;
+    font-size: 13px;
+}
+
+.dir4 {
+    background: whitesmoke;
+    display: table-cell;
+    width: 500px;
+    padding: 30px 50px 30px 50px;
+    border: 1px solid white;
+    margin-top: -100px;
+    margin: auto;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.dir1, .dir2, .dir3, .dir4 {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+
+
+.dir1:hover, .dir2:hover, .dir3:hover, .dir4:hover {
+    opacity: 1;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+
+/*********** Theme Styles ***********/
+
+.fixingbox {
+    display: table-cell;
+    float: left;
+}
+
+.accordion {
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 1px solid #CCCCCC;
+}
+
+.accordion > ul > li > a {
+    background-color: rgb(12, 14, 62);
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 40px 30px 30px 30px;
+}
+
+.accordion > ul > li > a:hover {
+    color: #fff;
+}
+
+.accordion > ul > li > div {
+    background-color: white;
+}
+
+/******** Theme Structure *********/
+.accordion > ul > li > div {
+    height: 400px;
+    width: 400px;
+    color: rgb(12, 14, 62);
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.accordion > ul > li > a {
+    border-width: 1px 1px 0px 0px solid red;
+    width: 140px;
+    color: #AAAAAA;
+}
+
+.accordion {
+    width: 999px;
+
+}
+
+.accordion, .accordion > ul > li > a {
+    height: 100px;
+
+}
+
+.accordion > ul > li {
+    margin-right: -400px;
+    width: 600px;
+
+    /* Transition Effect */
+    transition: margin-right 0.6s ease 0.2s;
+    -moz-transition: margin-right 0.6s ease 0.2s;
+    -webkit-transition: margin-right 0.6s ease 0.2s;
+    -o-transition: margin-right 0.6s ease 0.2s;
+}
+
+/*******  Do not change folllowing properties  **********/
+.accordion {
+    overflow: hidden;
+}
+
+.accordion > ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 9999em;
+}
+
+.accordion > ul > li {
+    float: left;
+    overflow: hidden;
+}
+
+.accordion > ul > li > a {
+    float: left;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    -moz-outline-style: none;
+    outline: none;
+}
+
+ul.accordion-ie > li > a > span {
+    cursor: pointer;
+    width: auto;
+}
+
+/* IE only */
+.accordion > ul > li > div {
+    float: left;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.accordion > ul > li:hover {
+    margin-right: 0px;
+}
+
+ul.accordion-ie > li:hover {
+    margin-right: 0px;
+}
+
+/* IE only */
